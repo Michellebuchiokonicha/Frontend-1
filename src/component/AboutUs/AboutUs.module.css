@@ -684,6 +684,95 @@
   }
 
   @media (min-width: 769px) and (max-width: 1020px) {
+    .one{
+        width: 550px;
+        margin: 0px auto;
+        padding-top: 20px;
+        
+    }
+    .design{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        
+    }
+    .session8{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1100px;
+        
+    }
+    .session8 .downloadApp h2{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 64px;
+    }
+    .session8 .downloadApp p{
+        width: 90%;
+        margin: auto;
+        height: 96px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+    .session8 .store{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .apple{
+        width: 46%;
+        height: 78px;
+    }
+    .playPlay{
+        width: 46%;
+        height: 78px;
+    }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .playersRight{
+        width: 100%;
+    }
+    .store{
+        gap: 10px;
+    }
+    .players{
+        width: 55%;
+        padding-top: 7.7px;
+        padding-bottom: 7.7px;
+    }
+    
+    .session8 .iphone3{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: -150px;
+      
+    }
+    .iphone3 .phone1{
+        /* width: 202.33px; */
+        height: 93%; 
+        display: flex;
+
+    }
+    .iphone3 .phone2{
+        display: none;
+    } 
     .our{
         display: flex;
         flex-direction: column;
